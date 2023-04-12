@@ -1,6 +1,7 @@
 .container{
     width: 430px;
-    height: 90vh;
+    height: 570px;
+    min-height: 570px;
     margin: auto;
     background-color: blueviolet;
     border-radius: 15px;
