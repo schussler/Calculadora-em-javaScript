@@ -1,15 +1,18 @@
+
+
 .container{
     width: 430px;
     height: 570px;
     min-height: 570px;
     margin: auto;
-    background-color: blueviolet;
+    background-color: rgb(166, 15, 56);
     border-radius: 15px;
     position: relative;
     display: flex;
-    
+    margin-top: 50px;
     
 }
+
 
 .visor{
     width: 90%;
@@ -52,4 +55,32 @@ td{
 
 td:hover{
     background-color: orange;
+}
+
+
+/* GRADIENTE BACKGROUND */
+
+.animacao-gradiente {
+    background: linear-gradient(270deg, #0ad8a3, #660ad8, #97d80a, #ffcd16);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 38s ease infinite;
+    -moz-animation: AnimationName 38s ease infinite;
+    animation: AnimationName 38s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
